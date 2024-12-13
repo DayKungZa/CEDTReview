@@ -96,7 +96,7 @@ body {
   align-items: center;
   gap: 20px;
   width: 100%;
-  max-width: 500px;
+  max-width: min(75%,600px);
   padding: 20px;
 }
 
