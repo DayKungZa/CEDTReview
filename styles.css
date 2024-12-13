@@ -93,13 +93,11 @@ body {
   padding: 20px;
 }
 
-#content {
+.text-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-right: 50px;
-  padding-left: 50px;
   gap: 20px;
   width: 100%;
   max-width: 500px;
