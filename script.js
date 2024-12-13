@@ -17,6 +17,5 @@ async function loadMarkdown() {
   }
 }
 
-loadMarkdown();
 
 loadMarkdown();
