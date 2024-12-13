@@ -17,9 +17,13 @@ async function loadMarkdown() {
   }
 }
 
-function scrollToTopic() {
-  const topic = document.getElementById("topic");
-  topic.scrollIntoView({ behavior: "smooth" });
+function scrollToTopic(topicId) {
+  const topic = document.getElementById(topicId);
+  if (topic) {
+    topic.scrollIntoView({ behavior: "smooth" });
+  } else {
+    console.error(`Element with id '${topicId}' not found.`);
+  }
 }
 
 loadMarkdown();
