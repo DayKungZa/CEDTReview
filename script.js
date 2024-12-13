@@ -17,5 +17,9 @@ async function loadMarkdown() {
   }
 }
 
+function scrollToTopic() {
+  const topic = document.getElementById("topic");
+  topic.scrollIntoView({ behavior: "smooth" });
+}
 
 loadMarkdown();
